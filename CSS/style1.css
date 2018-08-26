@@ -1,0 +1,132 @@
+html,body{
+    height: 100%;
+    margin: 0px;
+}
+
+.nav{
+    background-color: gray;
+    padding: 5px;
+}
+
+.title{
+    color: white;
+    padding-left: 5px;
+}
+
+.ul1{
+    list-style-type: none;
+    text-align: right;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+li{
+    display: inline;
+}
+
+a{
+    text-decoration-line: none;
+    color: white;
+    padding: 15px;
+}
+
+.wallpaper{
+    margin-top: -33px;
+    height: 92%;
+    background-image: url(../Img/wallpaper1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.h1{
+    color: white;
+    padding: 80px;
+    font-size: 50px;
+}
+
+.p1{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 20%;
+}
+
+.b1{
+    background-color: gainsboro;
+    border-style: none;
+    height: 2em;
+    width: 8em;
+    font-family: monospace;
+    font-weight: 700;
+}
+
+#row{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.card{
+    float: left;
+    width: 25%;
+    height: 80%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid gainsboro;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-img{
+    width: 100%;
+    height: 200px;
+}
+
+.p2, .p4{
+    padding: 5px;
+    text-align: justify;
+}
+
+.p3{
+    text-align: justify;
+    padding-left:  10%;
+}
+
+.footer{
+    background-color: #1C2331;
+    clear: both;
+    padding: 20px;
+}
+
+.ul2{
+    list-style-type: none;
+    text-align: left;
+}
+
+h4{
+    color: grey;
+    padding-left: 50px;
+}
+
+.ul3{
+    list-style-type: none;
+    text-align: right;
+    margin-top: -70px;
+    margin-right: 30px;
+}
+
+.icon{
+    padding: 3px;
+}
